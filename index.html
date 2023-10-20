@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LesButineusesDeVillers</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="#" class="logo">LBDV</a>
+        <div class="nav-links">
+            <ul>
+                <li class="active"><a href="#header">Accueil</a></li>
+                <li><a href="#section">Nos ventes</a></li>
+                <li><a href='https://drive.google.com/file/d/1ma6S3Qe_DSrUjQSh8sLGuXba-EsQhcS3/view?usp=sharing'>Contactez-nous!</a></li>
+                <!--<li><a href="#">Contact</a></li> -->
+            </ul>
+        </div>
+        <img src="images/menu-btn.png" alt="menu" class="menu-hamburger">
+    </nav>
+    <div class="content">
+        <h1>Les Butineuses de Villers</h1>
+        <p><i>Pour l'achat de 5 pots de miel, un pot de miel de fleur vous est offert !</i></p>
+        <div>
+            <a href="#popup"><button type="button"><span></span>Contactez-nous!</button></a>
+            <div id="popup" class="overlay">
+                <div class="popup">
+                    <h2><strong>Nous contacter :</strong></h2>
+                    <a href="#" class="cross">&times;</a>
+                    <p>Vous souhaitez prendre contact avec nous pour l'achat d'un pot de miel ou bien juste un petit 
+                        renseignement ? Vous pouvez le faire au numéro suivant : <strong>07.71.81.25.73</strong> ou bien sur 
+                        notre boîte mail : <strong>lesbutineusesdevillers@gmail.com</strong>. En espérant que nous parviendront a répondre à vos demandes.
+                    </p>
+                </div>
+            </div> 
+            <a href='https://www.google.com/maps/place/51130+Villers-aux-Bois/@48.935918,3.9154289,13.75z/data=!4m5!3m4!1s0x47e93f81cc0f1657:0x40a5fb99a3b3b80!8m2!3d48.932675!4d3.935577'><button type="button"><span></span>Ou nous trouver ?</button></a>
+        </div>
+    </div>
+
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
+</header>
+
+<section class="sec1" id="section">
+    <div class="container">
+        <div class="left">
+            <br><br><h1>Notre Miel de Fleurs</h1>
+            <div class="separateur"></div>
+            <br><p>Le miel de fleurs est un miel d’été. Ce miel est polyfloral fabriqué par les abeilles à
+                partir du nectar de fleur. Délicatement parfumé, le miel de fleurs d'été est une symphonie de saveurs, 
+                composé d'un cocktail de fleurs (tournesol, bruyère, ronces, roses et bien d'autres).
+                C'est un miel liquide qui se cristallise en plusieurs mois de couleur jaunatre.</p>
+            <br><strong><i><p class="miel-price" style="color:#f1cd04">7€ -- 500g</p></i></strong>
+            <br><br><div class="content2"><a href="https://drive.google.com/file/d/1FFzStu5iOxu-_sY1bRBdZwvmACQV5D2X/view"><button type="button2"><span></span>En savoir plus</button></a></div>
+        </div>
+        <div class="right">
+            <img src="images/miel/1.jpg" alt="image aléatoire" >
+        </div>
+    </div>
+</section>
+    <div class="separateursec"></div>
+<section class="sec2">
+    <div class="container">
+        <div class="left">
+            <br><br><h1>Notre Miel d'été</h1>
+            <div class="separateur"></div>
+            <br><p>La particularité de ce miel de fleur réside dans son mélange de nectars et de miellats
+                variés. Les nectars viennent des fleurs et les miellats de conifères divers : de chêne, de
+                hêtre, de tilleul...
+                Légèrement plus parfumé que le miel de fleurs, il se rapproche du miel de fôret. 
+                Ce miel de fleur est riche en miellat d'où sa couleur plus ambrée.</p>
+            <br><strong><i><p class="miel-price" style="color:#f1cd04">8€ -- 500g</p></i></strong>
+            <br><br><br><div class="content2"><a href="https://drive.google.com/file/d/1bJk360p4s8Wifvu8S3BqUNeh3kgM72sE/view"><button type="button"><span></span>En savoir plus</button></a></div>
+        </div>
+        <div class="right">
+            <img src="images/miel/2.jpg" alt="image aléatoire" >
+        </div>
+    </div>
+</section>
+    <div class="separateursec"></div>
+<section class="sec3">
+    <div class="container">
+        <div class="left">
+            <br><br><h1>Notre Miel Crémeux</h1>
+            <div class="separateur"></div>
+            <br><p>Ce miel crémeux est un miel de printemps naturellement moelleux, toujours clair, et
+                facile à tartiner. Il est issu du colza et de diverses autres fleurs qui s'épanouissent en
+                même temps (notamment le pommier, mais aussi le cerisier, le pissenlit, le trèfle, les
+                primevère sauvage...). Il se caractérise par un gout légèrement acidulé et des sensations de fraicheur.</p>
+            <br><strong><i><p class="miel-price" style="color:#f1cd04">6.50€ -- 500g</p></i></strong>
+            <br><br><br><div class="content2"><a href="https://drive.google.com/file/d/1qASC2BsD5dDl2DvccerEvNAnCmkJTCAz/view"><button type="button"><span></span>En savoir plus</button></a></div>
+        </div>
+        <div class="right">
+            <img src="images/miel/3.jpg" alt="image aléatoire" >
+        </div>
+    </div>
+</section>
+    <div class="separateursec"></div>
+<section class="sec4">
+    <div class="container">
+        <div class="left">
+            <br><br><h1>Notre Miel de Fôret</h1>
+            <div class="separateur"></div>
+            <br><p>Le miel de fôrêt, est un véritable cocktail de saveurs : 
+                Il rassemble les saveurs de plusieurs fleurs de fôrêt (ronce, bruyère, châtaigniers...). 
+                Avec un goût doux et intense, légèrement sucré et fondant en bouche.
+                La particularité du miel de forêt réside dans sa richesse de miellats variés.
+                Il est de couleurs toujours très sombre, le miel de forêt prend de belles teintes
+                brunes tirant vers le gris une fois cristallisé.</p>
+                <br><strong><i><p class="miel-price" style="color:#f1cd04">8€ -- 500g</p></i></strong>
+            <br><br><div class="content2"><a href="https://drive.google.com/file/d/1i4W1qv1SFD-A_xE8sEmZYpcWJEPCAIsT/view"><button type="button"><span></span>En savoir plus</button></a></div>
+        </div>
+        <div class="right">
+            <img src="images/miel/4.jpg" alt="image aléatoire" >
+        </div>
+    </div>
+</section>
+    <div class="separateursec"></div>
+
+
+<footer>
+    <div class="footer-content">
+        <h3><strong>LesButineusesDeVillers</strong></h3>
+        <p><i>Située à VILLERS-AUX-BOIS (51130), l'entreprise est spécialisée dans le secteur d'activité de l'élevage d'animaux.</i></p>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2022 LesButineusesDeVillers. designed by Corentin_mrcx</p>
+    </div>
+</footer>
+
+</body>
+</html>
